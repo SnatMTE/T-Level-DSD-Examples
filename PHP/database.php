@@ -1,4 +1,10 @@
 <?php
+// PHP script to handle database interactions for CRUD operations
+// This script provides functions to add, update, and delete records in a MySQL database using PDO.
+// Ensure you have the PDO extension enabled in your PHP configuration
+// and replace the database connection settings with your own.
+// Remember in a actual site, you can move $host, $db, $user, $pass to a config file and not repeat yourself.
+
 function addToDatabase($table, $query, $params = []) {
     // Database connection settings
     $host = 'localhost';
